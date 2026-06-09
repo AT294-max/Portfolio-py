@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ateeq Ur Rehman — Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+        <div class="nav__inner">
+            <a href="#" class="nav__logo">AC.</a>
+            <ul class="nav__links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero__bg-grid"></div>
+        <div class="hero__content">
+            <span class="hero__tag">Available for Work</span>
+            <h1 class="hero__name">Ateeq Ur Rehman</h1>
+            <h2 class="hero__title">BS Applied Computing Student<br/>&amp; Python Developer & Web Developer</h2>
+            <p class="hero__desc">
+                BS Applied Computing student at UET Lahore with expertise in HTML, CSS, JavaScript, Python, Flask, and SQL. Dedicated to creating efficient, user-friendly, and impactful software solutions.
+            </p>
+            <div class="hero__cta">
+                <a href="#projects" class="btn btn--primary">View My Work</a>
+                <a href="#contact" class="btn btn--outline">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero__visual">
+            <div class="hero__card hero__card--1">
+                <code>Python • Flask • SQL</code>
+                <small>BS Applied Computing Student</small>
+            </div>
+
+            <div class="hero__card hero__card--2">
+                <span>🚀</span>
+                <strong>5+ Projects</strong>
+                <small>Completed Projects</small>
+            </div>
+
+            <div class="hero__card hero__card--3">
+                <span>🎓</span>
+                <strong>2029</strong>
+                <small>Expected Graduation</small>
+            </div>
+            <div class="hero__avatar">
+                <div class="hero__avatar-inner">AC</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-label">Who I Am</div>
+            <div class="about__grid">
+                <div class="about__text">
+                    <h2 class="section-title fade-in">Turning ideas into<br/>elegant products.</h2>
+                    <p>
+                        I am Ateeq Ur Rehman, a BS Applied Computing student at UET Lahore with a passion for software development, web technologies, and database systems. I enjoy building modern web applications using Python, Flask, HTML, CSS, JavaScript, and SQL while continuously
+                        improving my programming and problem-solving skills.
+                    </p>
+
+                    <p>
+                        Beyond academics, I work on personal projects, explore emerging technologies, contribute to my GitHub portfolio, and expand my knowledge in software engineering and artificial intelligence. My goal is to create practical solutions that make a positive
+                        impact through technology.
+                    </p>
+                    <div class="about__stats fade-in">
+                        <div class="stat"><strong>3+</strong><span>Projects</span></div>
+                        <div class="stat"><strong>HTML/CSS</strong><span>Frontend</span></div>
+                        <div class="stat"><strong>Python</strong><span>Backend</span></div>
+                    </div>
+                </div>
+                <div class="about__img-wrap">
+                    <div class="about__img-placeholder">
+                        <div class="about__initials">AC</div>
+                        <div class="about__decor about__decor--1"></div>
+                        <div class="about__decor about__decor--2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-label">What I Know</div>
+            <h2 class="section-title fade-in">Skills &amp; Tools</h2>
+            <div class="skills__grid">
+                <div class="skill-card fade-in">
+                    <div class="skill-card__icon">⚛️</div>
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Responsive Web Design</li>
+                    </ul>
+                </div>
+                <div class="skill-card fade-in" style="transition-delay:.1s">
+                    <div class="skill-card__icon">🐍</div>
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Flask</li>
+                        <li>REST APIs</li>
+                        <li>SQL Server</li>
+                    </ul>
+                </div>
+                <div class="skill-card fade-in" style="transition-delay:.2s">
+                    <div class="skill-card__icon">☁️</div>
+                    <h3>Databases & Tools</h3>
+                    <ul>
+                        <li>SQL Server</li>
+                        <li>Database Design</li>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+                <div class="skill-card fade-in" style="transition-delay:.3s">
+                    <div class="skill-card__icon">🤖</div>
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>Postman</li>
+                        <li>Netlify</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-label">My Work</div>
+            <h2 class="section-title fade-in">Featured Projects</h2>
+            <div class="projects__grid" id="projectsGrid">
+                <div class="projects__loading">Loading projects from Python API…</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-label">Say Hello</div>
+            <h2 class="section-title fade-in">Let's Build Something Together</h2>
+            <div class="contact__grid fade-in">
+                <div class="contact__info">
+                    <p>Whether you have a project in mind, want to collaborate, or just want to chat — my inbox is always open.</p>
+                    <div class="contact__links">
+                        <a href="mailto:2024n07457s@gmail.com">✉️ 2024n07457s@gmail.com</a>
+                        <a href="https://github.com/AT294-max" target="_blank">🐙 github.com/AT294-max</a>
+                        <a href="https://www.linkedin.com/in/ateeq-ur-rehman-shaheen-15b591366?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">💼 LinkedIn</a>
+                    </div>
+                </div>
+                <form class="contact__form" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="fname">Your Name</label>
+                        <input type="text" id="fname" name="name" placeholder="Jane Smith" />
+                    </div>
+                    <div class="form-group">
+                        <label for="femail">Email Address</label>
+                        <input type="email" id="femail" name="email" placeholder="jane@example.com" />
+                    </div>
+                    <div class="form-group">
+                        <label for="fmessage">Message</label>
+                        <textarea id="fmessage" name="message" rows="5" placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full" id="submitBtn">Send Message</button>
+                    <div id="formStatus" class="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Ateeq Ur Rehman· Powered by Python 🐍 &amp; Flask</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
